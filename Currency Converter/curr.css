@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ac04fa;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 20vw;
+    height: 70vh;
+    border-radius: 12px;
+    border: none;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.app-details img{
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+}
+.app-details .app-title{
+    margin-left: 8px;
+    margin-top: 28px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+.amount{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#amount{
+    margin-left: 0px;
+    width: 242px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 22px;
+}
+
+.dropdowns #from-currency-select{
+    width: 111px;
+    background-color:#ac04fa;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 22px;
+    color: white;cursor: pointer;
+}
+.dropdowns #to-currency-select{
+    width: 111px;
+    margin-left :15px; 
+    background-color:#ac04fa;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 22px;
+    color: white;cursor: pointer;
+}
+
+#convert-button{
+    background-color:#ac04fa;
+    border-radius: 3px;
+    width: 241px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 22px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+#result{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 22px;
+    width: 241px;
+    background-color: #d09bea;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
